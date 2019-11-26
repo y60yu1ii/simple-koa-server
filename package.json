@@ -1,0 +1,22 @@
+{
+  "name": "demo_nodejs_server",
+  "version": "1.0.0",
+  "description": "A demo node js server for multiple purpose",
+  "main": "app.js",
+  "author": "yaoyu@fishare.de",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "test": "node app.js",
+    "start": "forever app.js"
+  },
+  "dependencies": {
+    "forever": "^1.0.0",
+    "fs": "^0.0.1-security",
+    "http": "^0.0.0",
+    "koa": "^2.10.0",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-static": "^5.0.0"
+  }
+}

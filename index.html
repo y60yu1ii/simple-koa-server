@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Better Cat Demo App</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+
+<body style="background-color:#EDB88B;">
+  <div class="container" align="center">
+    <h3>Bettercat demo app</h3>
+    <img class="materialboxed" width="300" src="bettercat.png">
+    <a class="waves-effect waves-light btn-large" style="background-color: #39393A;"><i
+        class="material-icons right">cloud_download</i>Download</a>
+
+  </div>
+</body>
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    var elems = document.querySelectorAll('.materialboxed');
+    var instances = M.Materialbox.init(elems, options);
+  });
+
+</script>
+
+</html>
