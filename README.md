@@ -1,4 +1,4 @@
-# Simple koa server template
+# Simple web bootsatrp with static resource
 
 ## Build Docker image
 
