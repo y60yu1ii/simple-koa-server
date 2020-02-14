@@ -9,9 +9,9 @@ const serve = require('koa-static');
 
 const port = 80;
 
-router.post('/open', async function (ctx) {
-    console.log('open/ POST data = ' + JSON.stringify(ctx.request.body));
-    ctx.body = "OK";
+router.post('/:action', async function (ctx) {
+    console.log('action is '+ ctx.url + '\ndata = ' + JSON.stringify(ctx.request.body));
+    ctx.body="OK\n";
 });
 
 
